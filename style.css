@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #777 ;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    text-align: center;
+    height: 100vh;
+    overflow:hidden ;
+    margin: 0;
+}
+
+.key{
+    border: 1px solid #fff;
+    background-color: whitesmoke;
+    padding: 20px 30px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #000;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-shadow: 1px 1px 4px ;
+    flex-direction: column;
+    margin: 10px;
+    min-width: 150px;
+    position: relative;
+}
+
+.key small{
+    position: absolute;
+    top: 44px;
+    left: 0;
+    text-align: center;
+    width: 100%;
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+
+}
